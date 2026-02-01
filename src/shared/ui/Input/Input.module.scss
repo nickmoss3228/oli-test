@@ -55,10 +55,10 @@ $tablet: 768px;
     border-radius: 14px;
   }
 
-  &:focus {
-    border-color: #6366f1;
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
-  }
+  // &:focus {
+  //   border-color: #6366f1;
+  //   box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
+  // }
 
   &:disabled {
     background-color: transparent;
@@ -74,13 +74,13 @@ $tablet: 768px;
     border-color: #ef4444;
 
     &:focus {
-      box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+      box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.1);
     }
   }
 
-  &.valid {
-    border-color: #10b981;
-  }
+  // &.valid {
+  //   border-color: #10b981ef;
+  // }
 }
 
 .errorText {
