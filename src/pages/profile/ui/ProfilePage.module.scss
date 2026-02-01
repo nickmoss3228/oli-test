@@ -1,0 +1,135 @@
+$mobile: 480px;
+$tablet: 768px;
+
+.page {
+  min-height: 97vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+
+  @media (max-width: $tablet) {
+    padding: 16px;
+    min-height: 100vh;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 16px;
+    align-items: flex-start;
+    padding-top: 40px;
+  }
+}
+
+.card {
+  background: transparent;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 470px;
+  text-align: center;
+  min-height: 600px;
+  gap: 161px;
+  
+
+  @media (max-width: $tablet) {
+    padding: 32px;
+    max-width: 420px;
+    min-height: 500px;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 20px;
+    max-width: 100%;
+    min-height: 400px;
+    border-radius: 12px;
+  }
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 700;
+  font-style: bold;
+  color: #ffffff;
+
+  @media (max-width: $tablet) {
+    font-size: 48px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 32px;
+  }
+}
+
+.field {
+  font-family: "Akt-Bold";
+}
+
+.infoList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+
+  @media (max-width: $tablet) {
+    gap: 14px;
+  }
+
+  @media (max-width: $mobile) {
+    gap: 12px;
+  }
+}
+
+.infoItem {
+  padding: 12px 16px;
+  background: transparent;
+  border-radius: 8px;
+  font-style: bold;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  @media (max-width: $tablet) {
+    gap: 20px;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 10px 12px;
+    gap: 14px;
+  }
+
+  span {
+    display: block;
+
+    &:first-child {
+      font-size: 22px;
+      font-weight: 200;
+      color: #ffffff;
+
+      @media (max-width: $tablet) {
+        font-size: 20px;
+      }
+
+      @media (max-width: $mobile) {
+        font-size: 16px;
+      }
+    }
+
+    &:last-child {
+      font-size: 40px;
+      color: #ffffff;
+      font-weight: 500;
+
+      @media (max-width: $tablet) {
+        font-size: 32px;
+      }
+
+      @media (max-width: $mobile) {
+        font-size: 24px;
+      }
+    }
+  }
+}

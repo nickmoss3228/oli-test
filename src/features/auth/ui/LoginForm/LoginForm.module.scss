@@ -1,0 +1,44 @@
+$mobile: 480px;
+$tablet: 768px;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: 100%;
+  align-items: center;
+
+  @media (max-width: $tablet) {
+    gap: 16px;
+  }
+
+  @media (max-width: $mobile) {
+    gap: 12px;
+  }
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 80px;  
+
+  @media (max-width: $tablet) {
+    font-size: 48px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 32px;
+  }
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  text-align: center;
+
+  @media (max-width: $mobile) {
+    font-size: 12px;
+  }
+}
