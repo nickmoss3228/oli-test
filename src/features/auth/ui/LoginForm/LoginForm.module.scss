@@ -4,7 +4,7 @@ $tablet: 768px;
 .form {
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 20px;
   width: 100%;
   align-items: center;
 
@@ -20,13 +20,13 @@ $tablet: 768px;
 .title {
   font-size: 56px;
   font-weight: 700;
+  font-family: 'Akt-Bold';
   color: #ffffff;
   text-align: center;
   margin-bottom: 80px;  
 
   @media (max-width: $tablet) {
-    font-size: 48px;
-  }
+    font-size: 48px;  }
 
   @media (max-width: $mobile) {
     font-size: 32px;

@@ -4,7 +4,7 @@ $tablet: 768px;
 .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
   width: 96%;
   font-family: 'Akt';
 
@@ -86,7 +86,7 @@ $tablet: 768px;
 .errorText {
   font-size: 12px;
   color: #ef4444;
-  min-height: 18px;
+  min-height: 12px;
 
   @media (max-width: $mobile) {
     font-size: 11px;

@@ -31,7 +31,7 @@ $tablet: 768px;
   max-width: 470px;
   text-align: center;
   min-height: 600px;
-  gap: 161px;
+  gap: 181px;
   
 
   @media (max-width: $tablet) {
@@ -51,6 +51,7 @@ $tablet: 768px;
 .title {
   font-size: 60px;
   font-weight: 700;
+  font-family: 'Akt-Bold';
   font-style: bold;
   color: #ffffff;
 
