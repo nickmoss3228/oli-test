@@ -4,9 +4,10 @@ $tablet: 768px;
 .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
   width: 96%;
   font-family: 'Akt';
+  justify-content: flex-start;
 
   @media (max-width: $tablet) {
     gap: 14px;
@@ -15,6 +16,12 @@ $tablet: 768px;
   @media (max-width: $mobile) {
     gap: 10px;
   }
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .label {
@@ -42,6 +49,7 @@ $tablet: 768px;
   font-family: 'Akt';
   transition: border-color 0.2s, box-shadow 0.2s;
   outline: none;
+  margin-top: 10px;
 
   @media (max-width: $tablet) {
     padding: 22px 32px;

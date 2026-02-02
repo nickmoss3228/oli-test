@@ -31,13 +31,14 @@ $tablet: 768px;
   max-width: 470px;
   text-align: center;
   min-height: 600px;
-  gap: 181px;
+  gap: 165px;
   
 
   @media (max-width: $tablet) {
     padding: 32px;
     max-width: 420px;
     min-height: 500px;
+    gap: 120px;
   }
 
   @media (max-width: $mobile) {
