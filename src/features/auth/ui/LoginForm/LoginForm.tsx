@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import type { FormEvent } from 'react'
+import type { SubmitEvent } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { Input } from '@/shared/ui/Input/Input';
 import { Button } from '@/shared/ui/Button/Button';
@@ -66,7 +66,7 @@ export const LoginForm = () => {
     !validateField('email', formData.email) &&
     !validateField('password', formData.password);
 
-  const handleSubmit = async (e: FormEvent) => {
+  const handleSubmit = async (e: SubmitEvent) => {
     e.preventDefault();
     
     if (!isFormValid) return;
